@@ -1,0 +1,42 @@
+/* Estilos para el NavBar */
+.header {
+  background-color: #202020;
+  .container {
+  color: white;
+  background-color: #202020;
+  padding: 10px;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+.container img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.navbar {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  margin-left: auto;
+  width: 100%;
+}
+.navbar a{
+  color: aliceblue;
+  font-size: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: none;
+}
+.navbar a:hover {
+  color: #5364f8;
+}
+.navbar__link {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+}
+.navbar__link:hover {
+      color:#818cf8;
+}
+}

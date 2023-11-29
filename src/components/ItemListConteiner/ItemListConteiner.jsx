@@ -1,3 +1,5 @@
+import './ItemListConteiner.scss'
+
 const ItemListConteiner= ({greeting}) => {
     return (
         <section>

@@ -1,5 +1,5 @@
 import React from 'react';
-import './NavBar.css';
+import './NavBar.scss';
 import CartWidget from '../CartWidget/CartWidget.jsx';
 
 const NavBar = () => {
@@ -7,7 +7,7 @@ const NavBar = () => {
     <header className='header'>
         <div className='container'>
           <a href="">
-            <img src="" alt="" />
+            <img src="/logo.png" alt="logopagina" />
           </a>
         <nav className="navbar">
           <a href="#">Inicio</a>
