@@ -1,0 +1,77 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13px; /* Espacio entre las imágenes */
+    justify-content: space-between; /* Distribución de las imágenes */
+    margin: 30px 0 0 5px;
+  }
+  
+  .card {
+    flex: 0 0 calc(20% - 10px); /* El 25% permite mostrar 4 imágenes por fila */
+    /* Ancho y altura deseados para cada imagen (ajustables según necesidad) */
+    width: 100px;
+    height: 500px;
+    border: 1px solid black;
+    margin-top: 30px;
+    background-color: rgb(43, 43, 43);
+    border-radius: 60px 10px;
+    position: relative;
+    border: solid #71a3ff 1px;
+  }
+  
+  .card img {
+    width: 100%; /* Ajusta el tamaño de la imagen al 100% del div card */
+    height: 180px;
+    object-fit: contain; /* Conserva la proporción y corta la imagen si es necesario */
+    margin-top: 15px;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      flex: 0 0 calc(50% - 10px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card {
+      flex: 0 0 calc(100% - 10px);
+    }
+  }
+
+  h2 {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+    margin-top: 50px;
+    color: #fcebeb;
+  }
+  
+  p {
+    padding: 10px;
+    color: #fafaef;
+    text-align: justify;
+  }
+
+  .boton {
+    background-color: #71a3ff;
+    color: #fafaef;
+    font-size: 30px;
+    font-family: sans-serif;
+    border-radius: 2px 15px;
+    display: flex;
+    position: absolute;
+    bottom: 35px; 
+    right: 20px;
+    border: solid white 1px;
+  }
+
+  .list-conteiner {
+    background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(7,47,156,1) 73%);
+  }
+
+  .titulo {
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+  }
