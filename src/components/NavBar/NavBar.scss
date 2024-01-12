@@ -8,10 +8,11 @@
   display: flex;
   justify-content:space-around;
   align-items: center;
+  max-width: 97%;
 }
 .container img {
-    width: 100px;
-    height: 100px;
+    width: 6  0px;
+    height: 60px;
     object-fit: cover;
 }
 .navbar {

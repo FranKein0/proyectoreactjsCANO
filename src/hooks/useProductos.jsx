@@ -11,7 +11,7 @@ const useProductos = () => {
         pedirDatos(category)
             .then((data) => {
                 const items = category 
-                                ? data.filter(prod => prod.category === category)
+                                ? data.filter(prod => prod.category === category.toUpperCase())
                                 : data
                 setProductos(items)
             })

@@ -6,7 +6,8 @@
       "memoria RAM": "8",
       "precio": "699",
       "category": "NVIDIA",
-      "imagen": "NVIDIA GeForce RTX 3090.jpg",
+      "imagen": "/NVIDIA GeForce RTX 3090.jpg",
+      "stock": "11",
       "descripcion":"La NVIDIA GeForce RTX 3090 es una potente tarjeta gráfica diseñada para juegos de alta gama, renderizado de video, y aplicaciones intensivas gracias a su gran capacidad de memoria y rendimiento extraordinario."
     },
     {
@@ -16,7 +17,8 @@
       "memoria RAM": "8",
       "precio": "399",
       "category": "AMD",
-      "imagen": "AMD Radeon RX 6900 XT.jpg",
+      "imagen": "/AMD Radeon RX 6900 XT.jpg",
+      "stock": "11",
       "descripcion":"La AMD Radeon RX 6900 XT es una tarjeta gráfica poderosa y eficiente, ideal para juegos AAA y tareas de diseño y modelado 3D debido a su rendimiento superior y optimización para aplicaciones exigentes."
     },
     {
@@ -26,7 +28,8 @@
       "memoria RAM": "8",
       "precio": "499",
       "category": "NVIDIA",
-      "imagen": "NVIDIA GeForce RTX 3080 Ti.jpg",
+      "imagen": "/NVIDIA GeForce RTX 3080 Ti.jpg",
+      "stock": "11",
       "descripcion":"La NVIDIA GeForce RTX 3080 Ti ofrece un equilibrio sobresaliente entre rendimiento y precio, siendo una excelente opción para juegos de alta calidad, renderizado de contenido y aplicaciones de diseño exigentes."
     },
     {
@@ -36,7 +39,8 @@
       "memoria RAM": "8",
       "precio": "699",
       "category":"AMD",
-      "imagen": "AMD Radeon RX 6800 XT.jpg",
+      "imagen": "/AMD Radeon RX 6800 XT.jpg",
+      "stock": "11",
       "descripcion":"La AMD Radeon RX 6800 XT brinda un rendimiento excepcional para juegos avanzados, diseño gráfico y tareas de edición de video gracias a su potencia y capacidades de renderizado mejoradas."
     },
     {
@@ -47,6 +51,7 @@
       "precio": "499",
       "category": "NVIDIA",
       "imagen": "/NVIDIA GeForce RTX 3070.jpg",
+      "stock": "11",
       "descripcion":"La NVIDIA GeForce RTX 3070 ofrece un excelente rendimiento a un precio más asequible, siendo perfecta para juegos de alta calidad y aplicaciones creativas exigentes."
     },
     {
@@ -57,6 +62,7 @@
       "precio": "399",
       "category": "AMD",
       "imagen": "/AMD Radeon RX 6700 XT.jpg",
+      "stock": "11",
       "descripcion":"La AMD Radeon RX 6700 XT está diseñada para juegos de alta gama y tareas multitarea, proporcionando un rendimiento sólido y eficiente para aplicaciones gráficas y juegos exigentes."
     },
     {
@@ -67,6 +73,7 @@
       "precio": "399",
       "category": "NVIDIA",
       "imagen": "/NVIDIA GeForce RTX 3060 Ti.jpg",
+      "stock": "11",
       "descripcion":"La NVIDIA GeForce RTX 3060 Ti ofrece un rendimiento sólido a un precio competitivo, ideal para juegos de calidad y aplicaciones que requieren alta potencia gráfica."
     },
     {
@@ -77,6 +84,7 @@
       "precio": "349",
       "category": "AMD",
       "imagen": "/AMD Radeon RX 6600 XT.png",
+      "stock": "11",
       "descripcion":"La AMD Radeon RX 6600 XT ofrece una buena relación entre rendimiento y precio para juegos en resoluciones de 1080p y 1440p, siendo una opción sólida para jugadores exigentes."
     },
     {
@@ -87,6 +95,7 @@
       "precio": "699",
       "category":"NVIDIA",
       "imagen": "/NVIDIA GeForce RTX 2080 Ti.jpg",
+      "stock": "11",
       "descripcion":"Aunque de una generación anterior, la NVIDIA GeForce RTX 2080 Ti sigue ofreciendo un excelente rendimiento para juegos avanzados y aplicaciones de diseño."
     },
     {
@@ -97,6 +106,7 @@
       "precio": "399",
       "category": "AMD",
       "imagen": "/AMD Radeon RX 5700 XT.jpg",
+      "stock": "11",
       "descripcion":"La AMD Radeon RX 5700 XT proporciona un rendimiento sólido para juegos de alta calidad y aplicaciones gráficas exigentes, ofreciendo una experiencia inmersiva en juegos modernos."
     },
     {
@@ -107,6 +117,7 @@
       "precio": "229",
       "category": "NVIDIA",
       "imagen": "/NVIDIA GeForce GTX 1660 Super.jpg",
+      "stock": "11",
       "descripcion":"La NVIDIA GeForce GTX 1660 Super es una opción más económica con buen rendimiento para juegos actuales en resoluciones moderadas y aplicaciones multimedia."
     },
     {
@@ -117,6 +128,7 @@
       "precio": "279",
       "category": "AMD",
       "imagen": "/AMD Radeon RX 5600 XT.png",
+      "stock": "11",
       "descripcion":"La AMD Radeon RX 5600 XT es una tarjeta gráfica de gama media ideal para juegos en resoluciones de 1080p, ofreciendo un rendimiento sólido y eficiente."
     },
     {
@@ -127,6 +139,7 @@
       "precio": "159",
       "category": "NVIDIA",
       "imagen": "/NVIDIA GeForce GTX 1650 Super.jpg",
+      "stock": "11",
       "descripcion":"La NVIDIA GeForce GTX 1650 Super es una tarjeta asequible adecuada para juegos ligeros y tareas de multimedia, ideal para sistemas de gama media."
     },
     {
@@ -137,6 +150,7 @@
       "precio": "199",
       "category": "AMD",
       "imagen": "/AMD Radeon RX 5500 XT.jpg",
+      "stock": "11",
       "descripcion":"La AMD Radeon RX 5500 XT es una buena opción para juegos en 1080p de gama media, ofreciendo un equilibrio entre rendimiento y precio."
     },
     {
@@ -147,6 +161,7 @@
       "precio": "159",
       "category":"NVIDIA",
       "imagen": "/NVIDIA GeForce GTX 1050 Ti.jpg",
+      "stock": "11",
       "descripcion":"La NVIDIA GeForce GTX 1050 Ti es una tarjeta de entrada ideal para juegos y tareas básicas, proporcionando un rendimiento sólido para sistemas más modestos."
     },
     {
@@ -157,6 +172,7 @@
       "precio": "129",
       "category": "AMD",
       "imagen": "/AMD Radeon RX 5300.jpg",
+      "stock": "11",
       "descripcion":"La AMD Radeon RX 5300 está diseñada para juegos ligeros y tareas diarias, ofreciendo un rendimiento adecuado para sistemas de entrada."
     },
     {
@@ -167,6 +183,7 @@
       "precio": "89",
       "category": "NVIDIA",
       "imagen": "/NVIDIA GeForce GT 1030.jpg",
+      "stock": "11",
       "descripcion":"La NVIDIA GeForce GT 1030 es ideal para sistemas compactos y tareas de oficina, proporcionando un rendimiento gráfico básico y eficiente."
     },
     {
@@ -177,6 +194,7 @@
       "precio": "79",
       "category": "AMD",
       "imagen": "/AMD Radeon RX 640.jpg",
+      "stock": "11",
       "descripcion":"La AMD Radeon RX 640 es una tarjeta de entrada para gráficos integrados, ofreciendo un rendimiento adecuado para aplicaciones de nivel básico y multimedia."
     },
     {
@@ -187,6 +205,7 @@
       "precio": "4999",
       "category": "NVIDIA",
       "imagen": "/NVIDIA Quadro RTX 8000.jpg",
+      "stock": "11",
       "descripcion":"La NVIDIA Quadro RTX 8000 está dirigida a aplicaciones profesionales y tareas de diseño exigentes, ofreciendo un rendimiento excepcional para estaciones de trabajo y diseño 3D."
     },
     {
@@ -197,6 +216,7 @@
       "precio": "1199",
       "category": "AMD",
       "imagen": "/AMD Radeon Pro WX 9100.jpg",
+      "stock": "11",
       "descripcion":"La AMD Radeon Pro WX 9100 es una tarjeta gráfica profesional para estaciones de trabajo y diseño 3D, ofreciendo un rendimiento confiable y optimizado para aplicaciones profesionales."
     }
   ]

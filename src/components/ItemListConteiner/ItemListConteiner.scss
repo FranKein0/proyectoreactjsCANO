@@ -1,28 +1,27 @@
 .cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 13px; /* Espacio entre las imágenes */
-    justify-content: space-between; /* Distribución de las imágenes */
+    gap: 13px; 
+    justify-content: space-between;
     margin: 30px 0 0 5px;
   }
   
   .card {
-    flex: 0 0 calc(20% - 10px); /* El 25% permite mostrar 4 imágenes por fila */
-    /* Ancho y altura deseados para cada imagen (ajustables según necesidad) */
+    flex: 0 0 calc(20% - 10px); 
     width: 100px;
-    height: 500px;
+    height: 350px;
     border: 1px solid black;
-    margin-top: 30px;
     background-color: rgb(43, 43, 43);
     border-radius: 60px 10px;
     position: relative;
     border: solid #71a3ff 1px;
+    margin: 30px 20px 10px 20px
   }
   
   .card img {
-    width: 100%; /* Ajusta el tamaño de la imagen al 100% del div card */
+    width: 100%; 
     height: 180px;
-    object-fit: contain; /* Conserva la proporción y corta la imagen si es necesario */
+    object-fit: contain; 
     margin-top: 15px;
   }
   
@@ -41,8 +40,7 @@
   h2 {
     font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 30px;
-    margin-top: 50px;
+    margin: 20px 0 10px 30px;
     color: #fcebeb;
   }
   
@@ -66,8 +64,7 @@
   }
 
   .list-conteiner {
-    background: rgb(2,0,36);
-background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(7,47,156,1) 73%);
+    background: white;
   }
 
   .titulo {
