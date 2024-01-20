@@ -19,7 +19,7 @@ export const CartProvider = ({ children }) => {
     }
 
     const itemsInCart = () => {
-        return cart.reduce((acc, item) => acc + item.stock, 0)
+        return cart.reduce((acc, item) => acc + item.cantidad, 0);
     }
 
     const totalCart = () => {
